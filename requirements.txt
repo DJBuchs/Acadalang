@@ -1,0 +1,9 @@
+Bootstrap_Flask==2.2.0
+Flask_Login==0.6.3
+Flask==2.3.2
+flask_sqlalchemy==3.1.1
+SQLAlchemy==2.0.25
+python-dotenv==1.0.1
+email_validator==2.2.0
+pandas==2.2.2
+Werkzeug==3.0.0
