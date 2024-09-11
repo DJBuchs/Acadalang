@@ -31,8 +31,8 @@
                                             </div>
                                             
                                             <!-- Action Button -->
-                                            <div class="mt-auto w-100 mb-2">
-                                                <a href="#" class="btn btn-outline-light btn w-100" data-bs-toggle="modal" data-bs-target="#addDeckModal" style="border-radius: 5px;">
+                                            <div class="mt-auto w-100 mb-0">
+                                                <a href="#" class="btn btn-outline-light btn w-100 disabled-button" data-bs-toggle="modal" data-bs-target="#addDeckModal" style="border-radius: 5px;">
                                                     Add Deck
                                                 </a>
                                             </div>
@@ -67,7 +67,7 @@
                                             </div>
                                             
                                             <!-- Action Button -->
-                                            <div class="mt-auto w-100 mb-2">
+                                            <div class="mt-auto w-100 mb-0">
                                                 <a href="{{ url_for('flashcards', deck_name=decks[j].name )}}" class="btn btn-outline-light btn w-100" style="border-radius: 5px;">
                                                     Study Now
                                                 </a>

@@ -51,14 +51,14 @@ def update_card(card, rating):
     return card
 
 
-def initialize_decks_and_cards():
+def initialize_decks_and_cards(current_user):
     # Read word list and create 'Standard' deck
     df = pd.read_csv("./static/data/word_list.csv")
-    standard_deck = Deck(name='Standard', num_cards=df.shape[0])
+    standard_deck = Deck(name='Standard', num_cards=df.shape[0], user_id=current_user.id)
     
     # Read verb list and create 'Verbs' deck
     df_verbs = pd.read_csv("./static/data/verb_list.csv")
-    verbs_deck = Deck(name='Verbs', num_cards=df_verbs.shape[0])
+    verbs_deck = Deck(name='Verbs', num_cards=df_verbs.shape[0], user_id=current_user.id)
     
     # Start a session and perform operations
     try:
@@ -67,11 +67,13 @@ def initialize_decks_and_cards():
         db.session.flush()  # Flush to get the deck IDs
 
         # Prepare cards for 'Standard' deck
-        standard_cards = [Card(english=pair['english'], hebrew=pair['hebrew'], seen=False, next_shown=datetime.now(),
-                               deck_id=standard_deck.id, interval=0) for pair in df.to_dict(orient="records")]
+        standard_cards = [Card(english=pair['english'], hebrew=pair['hebrew'], transliteration=pair['transliteration'],
+                                seen=False, next_shown=datetime.now(),
+                                deck_id=standard_deck.id, interval=0) for pair in df.to_dict(orient="records")]
         
         # Prepare cards for 'Verbs' deck
-        verbs_cards = [Card(english=pair['english'], hebrew=pair['hebrew'], seen=False, next_shown=datetime.now(),
+        verbs_cards = [Card(english=pair['english'], hebrew=pair['hebrew'], transliteration=pair['transliteration'],
+                            seen=False, next_shown=datetime.now(),
                             deck_id=verbs_deck.id, interval=0) for pair in df_verbs.to_dict(orient="records")]
 
         # Add cards
@@ -89,7 +91,7 @@ def get_flashcards_for_today(deck):
 
     unseen_list = db.session.query(Card).where(Card.deck_id == deck.id, datetime.now()>Card.next_shown, Card.seen==False).all()
     todays_unseens = []
-    unseens_left = min(3 - deck.unseen_count, len(unseen_list))
+    unseens_left = min(10 - deck.unseen_count, len(unseen_list))
     
     if unseens_left > 0:
         todays_unseens = random.sample(unseen_list, unseens_left)

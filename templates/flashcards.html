@@ -25,8 +25,7 @@
         
         <!-- Sentences Section -->
         <div class="mt-3 mb-4">
-            <h5 id="hebrewSentence" class="card-text mb-2" style="color: white;">אני לא בטוח שזה יעבוד</h5>
-            <h5 id="englishSentence" class="card-text" style="color: white;">I am not sure that this will work.</h5>
+            <h5 id="hebrewSentence" class="card-text mb-2" style="color: white;">{{ card.transliteration }}</h5>
         </div>
 
         <!-- Separator -->
@@ -48,6 +47,8 @@
           </div>
         </div>
       </div>
+
+      
     </div>
   </div>
 
@@ -112,5 +113,24 @@
 
 </main>
 
+<script>
+  document.addEventListener('keydown', function(event) {
+    // Check for specific key codes and trigger button clicks
+    switch (event.code) {
+      case 'Digit1': // Replace with the key you want
+        document.getElementById('hardButton').click();
+        break;
+      case 'Digit2': // Replace with the key you want
+        document.getElementById('mediumButton').click();
+        break;
+      case 'Digit3': // Replace with the key you want
+        document.getElementById('easyButton').click();
+        break;
+      case 'Space': // Replace with the key you want
+        document.getElementById('translateButton').click();
+        break;
+    }
+  });
+</script>
 
 {% include "footer.html" %}

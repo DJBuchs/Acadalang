@@ -1,10 +1,101 @@
-hebrew,english
-לְהַגִּיד,to say
-לְקַבֵּל,to get
-לַעֲשׂוֹת,to make
-לָלֶכֶת,to go
-לָדַעַת,to know
-לַקַּחַת,to take
-לָבוֹא,to come
-לִרְאוֹת,to see
-לַחְשֹׁב,to think
+english,hebrew,transliteration
+"to be able to, can",להיות מסוגל,li-hi-yot me-su-gal
+"to like, love",לֶאֱהוֹב,le-e-hov
+to be late,לְאַחֵר,le-a-cher
+to eat,לֶאֱכוֹל,le-e-chol
+to come,לָבוֹא,la-vo
+to choose,לִבחוֹר,liv-chor
+to visit,לְבַקֵר,le-va-ker
+"to ask, request",לְבַקֵשׁ,le-va-kesh
+to cook,לְבַשֵּׁל,le-va-shel
+to live,לָגוּר,la-gur
+to speak,לְדַבֵּר,le-da-ber
+to know (something),לָדַעַת,la-da-at
+to believe,לְהַאֲמִין,le-ha-a-min
+to bring,לְהָבִיא,le-ha-vi
+to understand,לְהָבִין,le-ha-vin
+"to say, tell",לְהַגִּיד,le-ha-gid
+to arrive,לְהַגִיעַ,le-ha-gi-a
+"to order, invite",לְהַזְמִין,le-haz-min
+to decide,לְהַחְלִיט,le-hach-lit
+to be,לִהְיוֹת,li-hi-yot
+to enter,לְהִיכָּנֵס,le-hi-ka-nes
+to meet,לְהִיפָּגֵשׁ,le-hi-pa-gesh
+to stay,לְהִישָּׁאֵר,le-hi-sha-er
+"to know (someone), be familiar with",לְהַכִּיר,le-ha-kir
+to recommend,לְהַמְלִיץ,le-ham-lits
+to explain,לְהַסְבִּיר,le-has-bir
+to agree,לְהַסְכִּים,le-has-kim
+"to look, watch",לְהִסְתַּכֵּל,le-his-ta-kel
+to prefer,לְהַעֲדִיף,le-ha-a-dif
+to stop,לְהַפְסִיק,le-haf-sik
+to disturb,לְהַפְרִיעַ,le-ha-fri-a
+to need,לְהִצְטָרֵף,le-hits-ta-rech
+to listen,לְהַקְשִׁיב,le-hak-shiv
+to feel,לְהַרְגִישׁ,le-har-gish
+to obtain,לְהַשִׂיג,le-ha-sig
+to use,לְהִשְׁתַמֵשׁ,le-hish-ta-mesh
+to participate,לְהִשְׁתַּתֵּף,le-hish-ta-tef
+to start,לְהַתְחִיל,le-hat-chil
+to intend,לְהִתְכּוֹנֵן,le-hit-ka-ven
+to exercise,לְהִתְעַמֵּל,le-hit-a-mel
+"to phone, call",לְהִתְקַשֵּׁר,le-hit-ka-sher
+to say,לוֹמַר,lo-mar
+to move,לָזוּז,la-zuz
+to remember,לִזכּוֹר,liz-kor
+to return (come back); repeat,לַחֲזוֹר,lach-zor
+to wait,לַחֲכוֹת,le-cha-kot
+to park,לַחְנוֹת,lach-not
+to look for,לְחַפֵּשׁ,le-cha-pes
+to think,לַחשׁוֹב,lach-shov
+to fly,לָטוּס,la-tus
+to enjoy,לֵיהָנוֹת,le-ha-not
+"to create, produce, generate",לִיצוֹר,li-tsor
+to sleep,לִישׁוֹן,li-shon
+to write,לִכתוֹב,lich-tov
+to wear,לִלבּוֹשׁ,lil-bosh
+"to go, walk",לָלֶכֶת,la-le-chet
+to teach,לְלַמֵּד,le-la-med
+to learn,לִלמוֹד,lil-mod
+to die,לָמוּת,la-mut
+to sell,לִמְכּוֹר,lim-kor
+to find,לִמְצוֹא,lim-tso
+to drive,לִנְהוֹג,lin-hog
+"to go, travel",לִנְסוֹעַ,lin-so-a
+to try,לְנַסּוֹת,le-na-sot
+"to win, beat, overcome",לְנַצֵחַ,le-na-tse-ach
+to close,לִסְגוֹר,lis-gor
+to finish,לְסַיֵּים,le-sa-yem
+to work,לַעֲבוֹד,la-a-vod
+to pass,לַעֲבוֹר,la-a-vor
+to leave,לַעֲזוֹב,la-a-zov
+to help,לַעֲזוֹר,la-a-zor
+to answer,לַעֲנוֹת,la-a-not
+to stop,לַעֲצֹר,la-a-tsor
+"to arrange, organize; edit",לַעֲרוֹך,la-a-roch
+to do,לַעֲשׂוֹת,la-a-sot
+to meet,לִפְגוֹשׁ,lif-gosh
+to exchange (break big bills),לִפְרוֹט,lif-rot
+to open,לִפְתוֹחַ,lif-to-ach
+"to leave, exit",לָצֵאת,la-tset
+to receive,לְקַבֵּל,le-ka-bel
+to wake up,לָקוּם,la-kum
+to take,לָקַחַת,la-ka-chat
+to buy,לִקְנוֹת,lik-not
+to read; call/name,לִקְרוֹא,lik-ro
+to see,לִרְאוֹת,lir-ot
+"to descend, come down",לָרֶדֶת,la-re-det
+to run,לָרוּץ,la-ruts
+to wash,לִרְחוֹץ,lir-chots
+to want,לִרְצוֹת,lir-tsot
+"to ask, question, borrow",לִשְׁאוֹל,lish-ol
+to sit,לָשֶׁבֶת,la-she-vet
+to play,לְשַׂחֵק,le-sa-chek
+to forget,לִשְׁכּוֹחַ,lish-ko-ach
+to rent (from someone),לִשְׂכּוֹר,lis-kor
+to send,לִשְׁלוֹחַ,lish-lo-ach
+to pay,לְשַׁלֵּם,le-sha-lem
+to be happy,לִשְׂמוֹחַ,lis-mo-ach
+to hear,לִשְׁמוֹעַ,lish-mo-a
+to drink,לִשְׁתוֹת,lish-tot
+to give,לֶתֶת,la-tet

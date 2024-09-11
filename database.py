@@ -17,6 +17,8 @@ class User(db.Model, UserMixin):
     password: Mapped[str] = mapped_column(String(255), nullable=False)
     name: Mapped[str] = mapped_column(String(18), nullable=False)
     email: Mapped[str] = mapped_column(String(100), unique=True, nullable=False)
+    # relationship mapping for decks
+    associated_decks: Mapped[List["Deck"]] = relationship("Deck", back_populates="associated_user")
 
 
 class Card(db.Model):
@@ -25,6 +27,7 @@ class Card(db.Model):
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
     english: Mapped[str] = mapped_column(String(50), nullable=False)
     hebrew: Mapped[str] = mapped_column(String(100), nullable=False)
+    transliteration: Mapped[str] = mapped_column(String(100), nullable=False)
     seen: Mapped[bool] = mapped_column(Boolean, default=False)
     next_shown: Mapped[datetime] = mapped_column(DateTime, default=datetime.now)
 
@@ -54,6 +57,10 @@ class Deck(db.Model):
 
     # relationship mapping for game sessions
     card_data: Mapped[List["Card"]] = relationship("Card", back_populates="deck", cascade="all, delete-orphan")
+
+    # relationship mapping for user
+    user_id: Mapped[int] = mapped_column(ForeignKey("users.id"))
+    associated_user: Mapped["User"] = relationship("User", back_populates="associated_decks")
 
 
 

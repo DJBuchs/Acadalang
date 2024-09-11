@@ -105,3 +105,9 @@ body {
 #gameCarousel {
     padding: 0 30px;
 }
+
+.disabled-button {
+  pointer-events: none;
+  opacity: 0.6; /* Adjust opacity to indicate disabled state */
+  cursor: not-allowed;
+}

@@ -2,16 +2,10 @@ from datetime import datetime, timedelta
 from flask import Flask, abort, render_template, redirect, url_for, flash, request, session, jsonify
 from flask_bootstrap import Bootstrap5
 from flask_login import UserMixin, login_user, LoginManager, current_user, logout_user, login_required
-from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy.orm import relationship, DeclarativeBase, Mapped, mapped_column
-from sqlalchemy import Integer, String, Text, ForeignKey, JSON, DateTime, func, UniqueConstraint, desc, Boolean, Float
 from werkzeug.security import generate_password_hash, check_password_hash
 import os
 from dotenv import load_dotenv
 import random
-from typing import List
-import pandas as pd
-from supermemo2 import first_review, review
 from definitions import update_card, initialize_decks_and_cards, get_flashcards_for_today
 from database import db, User, Card, Deck
 
@@ -42,7 +36,7 @@ def load_user(user_id):
 def home():
 
     if current_user.is_authenticated:
-        decks = db.session.query(Deck).all()
+        decks = db.session.query(Deck).where(Deck.user_id == current_user.id).all()
         deck_size = []
         for deck in decks:
             if deck.date < datetime.now().date() - timedelta(days=2):
@@ -61,7 +55,7 @@ def home():
 def flashcards(deck_name):
 
     card_id = request.args.get('card_id')
-    chosen_deck = db.session.query(Deck).where(Deck.name == deck_name).first()
+    chosen_deck = db.session.query(Deck).where(Deck.name == deck_name, Deck.user_id == current_user.id).first()
     counter = session.get('counter')
 
     if card_id == None:
@@ -141,8 +135,8 @@ def logout():
 # RESET CARDS
 @app.route('/reset', methods=['GET', 'POST'])
 def reset_cards():
-    cards = db.session.query(Card).all()
-    decks = db.session.query(Deck).all()
+    cards = db.session.query(Card).join(Deck).filter(Deck.user_id == current_user.id).all()
+    decks = db.session.query(Deck).where(Deck.user_id == current_user.id).all()
     for card in cards:
         card.next_shown = datetime.now()
         card.interval = 0
@@ -173,8 +167,6 @@ def add_deck():
     return redirect(url_for('home')) 
 
 
-
-
 # REGISTER
 @app.route('/register', methods=['POST', 'GET'])
 def register():
@@ -199,7 +191,7 @@ def register():
 
             # add decks to user 
 
-            initialize_decks_and_cards()
+            initialize_decks_and_cards(new_user)
 
             login_user(new_user)
             return redirect(url_for('home'))

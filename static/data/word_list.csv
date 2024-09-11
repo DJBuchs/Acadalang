@@ -1,11 +1,501 @@
-hebrew,english
-של,of/belongs to
-את/אתה,you
-על,on
-לא,no
-הוא,he
-עם,with
-כי,because
-זה,this
-גם,also
-כל,all
+english,hebrew,transliteration
+dad,אַבָּא,a-ba
+watermelon,אֲבַטִּיחַ,a-va-ti-ach
+Spring,אָבִיב,a-viv
+but,אֲבָל,a-val
+thumb,אֲגוּדָל,a-gu-dal
+walnut,אֱגוֹז מֶלֶךְ,e-goz me-lech
+pear,אַגָּס,a-gas
+red,אָדֹם,a-dom
+or,אוֹ,o
+ear,אֹזֶן,o-zen
+bus,אוֹטוֹבּוּס,o-to-bus
+food,אֹכֶל,o-chel
+maybe,אוּלַי,u-lai
+university,אוּנִיבֶרְסִיטָה,u-ni-ver-si-ta
+bicycle,אוֹפַנַּיִם,o-fa-na-yim
+rice,אֹרֶז,o-rez
+"so, then",אָז,az
+brother,אָח,ach
+sister,אָחוֹת,a-chot
+"last, final",אַחֲרוֹן,a-cha-ron
+which,אֵיזֶה,ei-ze
+slow,אִטִּי,i-ti
+how,אֵיךְ,eich
+mom,אִמָּא,i-ma
+there isn’t/aren’t,אֵין,ein
+where,אֵיפֹה,ei-fo
+wife,אִשָּׁה,i-sha
+if,אִם,im
+English,אַנְגְּלִית,an-glit
+we,אֲנַחְנוּ,a-nach-nu
+I,אֲנִי,a-ni
+pineapple,אָנָנָס,a-na-nas
+forbidden,אָסוּר,a-sur
+nose,אַף,af
+peach,אֲפַרְסֵק,a-far-sek
+(it is) possible,אֶפְשָׁר,ef-shar
+"finger, toe",אֶצְבַּע,ets-ba
+breakfast,אֲרוּחַת בֹּקֶר,a-ru-chat bo-ker
+dinner,אֲרוּחַת עֶרֶב,a-ru-chat e-rev
+lunch,אֲרוּחַת צָהֳרַיִם,a-ru-chat tso-ho-ra-yim
+wallet,אַרְנָק,ar-nak
+grapefruit,אֶשְׁכּוֹלִית,esh-ko-lit
+you (f.),אֶת,at
+you (m.),אַתָּה,a-ta
+you (m.p.),אַתֶּם,a-tem
+yesterday,אֶתְמוֹל,et-mol
+you (f.p.),אַתֶּן,a-ten
+"in, at",בְּ,"be, ba"
+please,בְּבַקָּשָׁה,be-va-ka-sha
+clothes,בֶּגֶד,be-ga-dim
+good luck,הַצְלָחָה,be-hats-la-cha
+morning,בֹּקֶר,bo-ker
+outside,בַּחוּץ,ba-chuts
+sweet potato,בָּטָטָה,ba-ta-ta
+stomach/abdomen/tummy,בֶּטֶן,be-ten
+together,בְּיַחַד,be-ya-chad
+medium,בֵּינוֹנִי,bei-no-ni
+egg,בֵּיצָה,bei-tsa
+beer,בִּירָה,bi-ra
+house,בַּיִת,ba-yit
+hospital,בֵּית חוֹלִים,beit cho-lim
+synagogue,בֵּית כְּנֶסֶת,beit kne-set
+pharmacy,בֵּית מִרְקַחַת,beit mir-ka-chat
+school,בֵּית סֵפֶר,beit se-fer
+without,בְּלִי,bli
+son,בֵּן,ben
+cousin,בֶּן דּוֹד,ben dod
+gasoline,בֶּנְזִין,ben-zin
+building,בִּנְיָן,bin-yan
+banana,בָּנָנָה,ba-na-na
+bank,בַּנְק,bank
+okay,בְּסֵדֶר,be-se-der
+husband,בַּעַל,ba-al
+inside,בִּפְנִים,bif-nim
+onion,בָּצָל,ba-tsal
+bottle,בַּקְבּוּק,bak-buk
+beef,בָּקָר,ba-kar
+soon,בְּקָרוֹב,be-ka-rov
+healthy,בָּרִיא,ba-ri
+meat,בָּשָׂר,ba-sar
+daughter,בַּת,bat
+cockroach,ג'וּק,juk
+back,גַּב,gav
+high,גָּבוֹהַּ,ga-vo-ha
+cheese,גְּבִינָה,gvi-na
+big,גָּדוֹל,ga-dol
+height,גֹּבַהּ,go-va
+body,גּוּף,guf
+carrot,גֶּזֶר,ge-zer
+ice cream,גְּלִידָה,gli-da
+also,גַּם,gam
+socks,גֶּרֶב,gar-ba-yim
+rain,גֶּשֶׁם,ge-shem
+honey,דְּבַשׁ,dvash
+fish,דָּג,dag
+mail; post office,דֹּאַר,do-ar
+cherry,דֻּבְדְּבָן,duv-de-van
+uncle,דּוּד,dod
+aunt,דּוֹדָה,do-da
+apartment,דִּירָה,di-ra
+door,דֶּלֶת,de-let
+minute,דַּקָּה,da-ka
+South,דָּרוֹם,da-rom
+passport,דַּרְכּוֹן,dar-kon
+religious,דָּתִי,da-ti
+the,הַ,ha
+next,בָּא,ha-ba
+he,הוּא,hu
+turkey (animal),הֹדּוּ,ho-du
+present (tense),הוֹוֶה,ho-ve
+parents,הוֹרֶה,ho-rim
+she,הִיא,hi
+today,הַיּוֹם,ha-yom
+they (m.),הֵם,hem
+they (f.),הֵן,hen
+break,הַפְסָקָה,haf-sa-ka
+a lot,הַרְבֵּה,har-be
+exercise,הִתְעַמְּלוּת,hit-am-lut
+and,וְ,ve
+this,זֶה,ze
+cheap,זוֹל,zol
+olive,זַיִת,za-yit
+time,זְמַן,zman
+old (person),זָקֵן,za-ken
+friend,חָבֵר,cha-ver
+company,חֶבְרָה,chev-ra
+holiday,חַג,chag
+belt,חֲגוֹרָה,cha-go-ra
+room,חֶדֶר,che-der
+new,חָדָשׁ,cha-dash
+news,חֲדָשָׁה,cha-da-shot
+month,חֹדֶשׁ,cho-desh
+sick,חוֹלֶה,cho-le
+shirt,חֻלְצָה,chul-tsa
+brown,חֹם,chum
+hummus,חוּמוּס,chu-mus
+beach,חוֹף,chof
+vacation,חֻפְשָׁה,chuf-sha
+Winter,חֹרֶף,cho-ref
+chest,חָזֶה,cha-ze
+strong,חָזָק,cha-zak
+milk,חָלָב,cha-lav
+challah,חַלָּה,cha-la
+window,חַלּוֹן,cha-lon
+secular,חַלּוֹן,chi-lo-ni
+hot,חַם,cham
+butter,חֶמְאָה,chem-a
+pickles,חָמוּץ,cha-mu-tsim
+store,חֲנוּת,cha-nut
+lettuce,חַסָּה,cha-sa
+skirt,חֲצָאִית,cha-tsa-it
+half (of something),חֵצִי,che-tsi
+spicy (hot),חָרִיף,cha-rif
+"bill, check",חֶשְׁבּוֹן,chesh-bon
+important,חָשׁוּב,cha-shuv
+cat,חָתוּל,cha-tul
+good,טוֹב,tov
+"trip, hike",טִיּוּל,ti-yul
+lamb,טָלֶה,ta-le
+tv,טֶלֶוִיזְיָה,te-le-viz-ya
+telephone,טֶלֶפוֹן,te-le-fon
+tasty,טָעִים,ta-im
+get going,יַאלְלָה,ya-la
+arm,יָד,yad
+Jewish,יְהוּדִי,ye-hu-di
+yogurt,יוֹגוּרְט,yo-gurt
+day,יוֹם,yom
+Thursday,יוֹם חֲמִישִׁי,yom cha-mi-shi
+Sunday,יוֹם רִאשׁוֹן,yom ri-shon
+Wednesday,יוֹם רְבִיעִי,yom re-vi-i
+Tuesday,יוֹם שְׁלִישִׁי,yom shli-shi
+Monday,יוֹם הַשָּׁנָה,yom she-ni
+Friday,יוֹם שִׁשִּׁי,yom shi-shi
+singular; single  (not married),יָחִיד,ya-chid
+wine,יַיִן,ya-yin
+boy,יֶלֶד,ye-led
+girl,יַלְדָּה,yal-da
+sea,יָם,yam
+right (direction),יָמִין,ya-mi-na
+beautiful,יָפֶה,ya-fe
+exit,יְצִיאָה,ye-tsi-a
+expensive,יָקָר,ya-kar
+green,יָרֹק,ya-rok
+moon,יָרֵחַ,ya-re-ach
+vegetables,יְרָקוֹת,ye-ra-kot
+there is/are,יֵשׁ,yesh
+old (thing),יָשָׁן,ya-shan
+straight ahead; honest,יָשָׁר,ya-shar
+Israel,יִשְׂרָאֵל,is-ra-el
+mosquito,יַתּוּשׁ,ya-tush
+as,כְּ,ke
+pain/ache,כְּאֵב,ke-ev
+"road, route",כְּבִישׁ,kvish
+ball,כַּדּוּר,ka-dur
+soccer,כַּדּוּרֶגֶל,ka-du-re-gel
+basketball,כַּדּוּרְסַל,ka-dur-sal
+hat,כּוֹבַע,ko-va
+star,כּוֹכָב,ko-chav
+"glass, cup",כּוֹס,kos
+angry,כָּעַס,ko-es
+blue,כָּחֹל,ka-chol
+chair,כִּסֵּא,ki-se
+classroom,כִּתָּה,ki-ta
+all,כֹּל,kol
+dog,כֶּלֶב,ke-lev
+nothing,כְּלוּם,klum
+how much,כַּמָּה,ka-ma (or ka-ma)
+yes,כֵּן,ken
+entrance,כְּנִיסָה,kni-sa
+money,כֶּסֶף,ke-sef
+ATM,כַּסְפּוֹמָט,kas-po-mat
+spoon,כַּף,kaf
+hand,כַּף יָד,kaf yad
+foot,כַּף רֶגֶל,kaf re-gel
+cabbage,כְּרוּב,kruv
+pillow,כָּרִית,ka-rit
+kosher,כָּשֵׁר,ka-sher
+address,כְּתֹבֶת,ktov-et
+orange (color),כָּתֹם,ka-tom
+"to, for",לְ,le
+no,לֹא,lo
+slowly,לְאַט,le-at
+heart,לֵב,lev
+alone,לְבַד,le-vad
+white,לָבָן,la-van
+bless you (after s.o. sneezes),לִבְרִיאוּת,liv-ri-ut
+see you later,לְהִתְרָאוֹת,le-hit-ra-ot
+Cheers!,לְחַיִּים,le-cha-yim
+bread,לֶחֶם,le-chem
+lizard,לְטָאָה,le-ta-a
+night,לַיְלָה,lai-la
+lemon,לִימוֹן,li-mon
+why,לָמָּה,la-ma
+down,לְמַטָּה,le-ma-ta
+up,לְמַעְלָה,le-ma-la
+before,לִפְנֵי,lif-nei
+from,מִ,me
+very,מְאוֹד,me-od
+late,מְאֻחָר,me-u-char
+pastry,מַאֲפֶה,ma-a-fe
+bakery,מַאֲפִיָּה,ma-a-fi-ya
+test/exam,מִבְחָן,miv-chan
+towel,מַגֶּבֶת,ma-ge-vet
+desert,מִדְבָּר,mid-bar
+country,מְדִינָה,me-di-na
+scientist,מַדְּעָן,mad-an
+printer,מַדְפֶּסֶת,mad-pe-set
+sidewalk,מִדְרָכָה,mid-ra-cha
+what,מָה,ma
+fast,מָהִיר,ma-hir
+engineer,מְהַנְדֵּס,me-han-des
+quickly,מַהֵר,ma-her
+museum,מוּזֵאוֹן,mu-zei-on
+music,מוּזִיקָה,mu-zi-ka
+brain,מוֹחַ,mo-ach
+ready,מוּכָן,mu-chan
+taxi,מוֹנִית,mo-nit
+early,מֻקְדָּם,muk-dam
+teacher,מוֹרֶה,"mo-re, mo-ra"
+weather,מֶזֶג אֲוִיר,me-zeg a-vir
+air conditioner,מַזְגָן,maz-gan
+fork,מַזְלֵג,maz-leg
+East,מִזְרָח,miz-rach
+notebook,מַחְבֶּרֶת,mach-be-ret
+tomorrow,מָחָר,ma-char
+computer,מַחְשֵׁב,mach-shev
+kitchen,מִטְבָּח,mit-bach
+fried,מְטֻגָּן,me-tu-gan
+airplane,מָטוֹס,ma-tos
+meter,מֶטֶר,me-ter
+who,מִי,mi
+bed,מִטָּה,mi-ta
+dictionary,מִלּוֹן,mi-lon
+water,מַיִם,ma-yim
+juice,מִיץ,mits
+microwave,מִיקְרוֹגַל,mik-ro-gal
+someone,מִישֶׁהוּ,mi-she-hu
+car,מְכוֹנִית,me-cho-nit
+ugly,מְכֹעָר,me-cho-ar
+pants,מִכְנָס,mich-na-sa-yim
+shorts,מִכְנָסַיִם קְצָרִים,mich-na-sa-yim k-tsar-im
+full,מָלֵא,ma-le
+exciting,מַלְהִיב,mal-hiv
+hotel,מָלוֹן,ma-lon
+salt,מֶלַח,me-lach
+cucumber,מְלָפְפוֹן,me-la-fe-fon
+government,מֶמְשָׁלָה,mem-sha-la
+mango,מַנְגּוֹ,man-go
+serving/portion,מָנָה,ma-na
+manager,מְנַהֵל,me-na-hel
+tunnel,מִנְהָרָה,min-ha-ra
+restaurant,מִסְעָדָה,mis-a-da
+number,מִסְפָּר,mis-par
+smelly,מַסְרִיחַ,mas-ri-ach
+interesting,מְעַנְיֵן,me-an-yen
+West,מַעֲרָב,ma-a-rav
+napkin,מַפִּית,map-it
+key,מַפְתֵּחַ,maf-te-ach
+excellent,מְצֻיָּן,me-tsu-yan
+funny,מַצְחִיק,mats-chik
+camera,מַצְלֵמָה,mats-le-ma
+place,מָקוֹם,ma-kom
+refrigerator,מְקָרֵר,me-ka-rer
+soup,מָרָק,ma-rak
+something,מַשֶּׁהוּ,ma-she-hu
+game,מִשְׂחָק,mis-chak
+police,מִשְׁטָרָה,mish-ta-ra
+boring,מְשַׁעֲמֵם,me-sha-a-mem
+family,מִשְׁפָּחָה,mish-pa-cha
+weight,מִשְׁקָל,mish-kal
+office,מִשְׂרָד,mis-rad
+sweet,מָתוֹק,ma-tok
+when,מָתַי,ma-tai
+intelligent,נָבוֹן,na-von
+driver,נַהָג,na-hag
+river,נָהָר,na-har
+paper,נְיָר,ni-yar
+correct,נָכוֹן,na-chon
+low,נָמוּךְ,na-much
+airport,נְמַל תְּעוּפָה,na-mal te-u-fa
+ant,נְמָלָה,ne-ma-la
+shoes,נַעַל,na-a-la-yim
+nectarine,נֶקְטָרִינָה,nek-ta-ri-na
+clean,נָקִי,na-ki
+married,נָשׂוּי,na-su-i
+weapon,נֶשֶׁק,ne-shek
+grandfather,סַבָּא,sa-ba
+soap,סַבּוֹן,sa-bon
+grandmother,סָבְתָא,sav-ta
+purple,סֶגּוֹל,sa-gol
+closed,סָגוּר,sa-gur
+sheet,סָדִין,sa-din
+sugar,סֻכָּר,su-kar
+end,סוֹף,sof
+weekend,סוֹף שָׁבוּעַ,sof sha-vu-a
+supermarket,סוּפֶּרְמַרְקֶט,su-per-mar-ket
+student,סְטוּדֶנְט,stu-dent
+story,סִפּוּר,si-pur
+knife,סַכִּין,sa-kin
+salad,סָלָט,sa-lat
+excuse me,סְלִיחָה,sli-cha
+beet(root),סֶלֶק,se-lek
+sandals,סַנְדָּל,san-da-lim
+sofa,סַפָּה,sa-pa
+sport,סְפּוֹרְט,sport
+book,סֵפֶר,se-fer
+library,סִפְרִיָּה,sif-ri-ya
+movie,סֶרֶט,se-ret
+Fall,סְתָו,stav
+past,עָבַר,a-var
+Hebrew,עִבְרִית,iv-rit
+tomato,עַגְבָנִיָּה,ag-va-ni-ya
+mold,עֹבֶשׁ,o-vesh
+cake,עוּגָה,u-ga
+world,עוֹלָם,o-lam
+chicken,עוֹף,of
+pen,עֵט,et
+tired,עָיֵף,a-yef
+eye,עַיִן,a-yin
+city,עִיר,ir
+newspaper,עִתּוֹן,i-ton
+spider,עַכָּבִישׁ,a-ka-vish
+now,עַכְשָׁו,ach-shav
+"on, about",עַל,al
+grapes,עֵנָב,a-na-vim
+poor,עָנִי,a-ni
+cloud,עָנָן,a-nan
+pencil,עִפָּרוֹן,i-pa-ron
+"tree, wood",עֵץ,ets
+stop,עָצוּר,a-tsor
+lazy,עַצְלָן,ats-lan
+bone,עֶצֶם,e-tsem
+evening,עֶרֶב,e-rev
+Arabic,עֲרָבִית,a-ra-vit
+channel (tv),עָרוּץ,a-ruts
+rich,עָשִׁיר,a-shir
+future,עָתִיד,a-tid
+mouth,פֶּה,pe
+here,פֶּה,po
+garbage can,פַּח אַשְׁפָּה [זֶבֶל],pach ash-pa
+parsley,פֶּטְרוֹזִילְיָה,pet-ro-zil-ya
+mushrooms,פִּטְרִיָּה,pit-ri-yot
+smart,פִּקֵּחַ,pi-ke-ach
+pita,פִּתָּה,pi-ta
+falafel,פָלָאפֶל,fa-la-fel
+pepper,פִּלְפֵּל,pil-pel
+face,פָּנִים,pa-nim
+pasta,פַּסְטָה,pas-ta
+piano,פְּסַנְתֵּר,psan-ter
+once,פַּעַם,pa-am
+twice,פַּעַם,pa-a-ma-yim
+faculty,פָקוּלְטָה,fa-kul-ta
+fruit,פְּרִי,pri
+chapter,פֶּרֶק,pe-rek
+simple,פָּשׁוּט,pa-shut
+open,פָּתוּחַ,pa-tu-ach
+color,צֶבַע,tse-va
+I.D.F. (Israel Defense Forces),"צה""ל",tsa-hal
+yellow,צָהֹב,tsa-hov
+noon,צָהֳרַיִם,tso-ho-ra-yim
+bird,צִפּוֹר,tsi-por
+plate,צַלַּחַת,tsa-la-chat
+North,צָפוֹן,tsa-fon
+team,קְבוּצָה,kvu-tsa
+receipt,קַבָּלָה,ka-ba-la
+small,קָטָן,ka-tan
+quinoa,קִינוֹאָה,ki-no-a
+Summer,קַיִץ,ka-yits
+wall,קִיר,kir
+"squash, zucchini",קִשּׁוּא,ki-shu
+easy,קַל,kal
+mall,קַנְיוֹן,kan-yon
+bowl,קְעָרָה,ke-a-ra
+coffee,קָפֶה,ka-fe
+a little,קְצָת,k-tsat
+cold,קַר,kar
+difficult,קָשֶׁה,ka-she
+head,רֹאשׁ,rosh
+first,רִאשׁוֹן,ri-shon
+rabbi,רַב,rav
+quarter (of something),רֶבַע,re-va
+leg,רֶגֶל,re-gel
+moment,רֶגַע,re-ga
+sauce,רֹטֶב,ro-tev
+noisy,רוֹעֵשׁ,ro-esh
+doctor/physician,רוֹפֵא,ro-fe
+thin,רָזֶה,ra-ze
+street,רְחוֹב,re-chov
+wet,רָטֹב,ra-tov
+pomegranate,רִמּוֹן,ri-mon
+soft,רַךְ,rach
+train,רַכֶּבֶת,ra-ke-vet
+bad,רַע,ra
+hungry,רָעָב,ra-ev
+idea,רַעְיוֹן,ra-a-yon
+floor,רִצְפָּה,rits-pa
+only,רַק,rak
+question,שְׁאֵלָה,she-e-la
+week,שָׁבוּעַ,sha-vu-a
+Saturday,שַׁבָּת,sha-bat
+again,שׁוּב,shuv
+shawarma,שַׁוַארְמָה,sha-war-ma
+table,שֻׁלְחָן,shul-chan
+garlic,שׁוּם,shum
+hot chocolate,קַו חַם,sho-ko cham
+chocolate,שׁוֹקוֹלָד,sho-ko-lad
+plum,שְׁזִיף,she-zif
+black,שָׁחֹר,sha-chor
+swimming,שְׂחִיָּה,schi-ya
+rug,שָׁטִיחַ,sha-ti-ach
+teeth,שִׁנִּי,shi-na-yim
+lesson,שִׁעוּר,shi-ur
+shuttle taxi,שֵׁרוּת,shei-rut
+neighborhood,שְׁכוּנָה,shchu-na
+of,שֶׁל,shel
+hello,שָׁלוֹם,sha-lom
+third (of something),שְׁלִישׁ,shlish
+whole,שָׁלֵם,sha-lem
+there,שֵׁם,sham
+name,שֵׁם,shem
+surname,שֵׁם מִשְׁפָּחָה,shem mish-pa-cha
+first name,שֵׁם פְּרָטִי,shem pra-ti
+left (direction),שְׂמֹאל,smo-la
+sky,שָׁמַיִם,sha-ma-yim
+oil,שֶׁמֶן,she-men
+fat,שֶׁמֶן,sha-men
+sun,שֶׁמֶשׁ,she-mesh
+year,שָׁנָה,sha-na
+second (time),שֵׁנִי,shni-ya
+schnitzel,שְׁנִיצֶל,shni-tsel
+hour,שָׁעָה,sha-a
+clock,שָׁעוֹן,sha-on
+goal (soccer),שַׁעַר,sha-ar
+hair,שַׁעַר,se-ar
+language,שָׂפָה,sa-fa
+almond,שָׁקֵד,sha-ked
+quiet,שֶׁקֶט,she-ket
+shekel,שֶׁקֶל,she-kel
+shakshuka,שַׁקְשׁוּקָה,shak-shu-ka
+toilet (bathroom),שֵׁרוּת,she-ru-tim
+(a) drink,שְׁתִיָּה,shti-ya
+fig,תְּאֵנָה,te-e-na
+date of birth,תַּאֲרִיךְ,ta-a-rich lei-da
+tea,תֶּה,te
+thank you,תּוֹדָה,to-da
+strawberry,תּוּת,tut
+hobby,תַּחְבִּיב,tach-biv
+"station, stop",תַּחֲנָה,ta-cha-na
+baby,תִּינוֹק,ti-nok
+bag,תִּיק,tik
+picture,תְּמוּנָה,tmu-na
+date (food),תָּמָר,ta-mar
+traffic,תְּנוּעָה,tnu-a
+oven,תַּנּוּר,ta-nur
+orange (food),תַּפּוּז,ta-puz
+apple,תַּפּוּחַ,ta-pu-ach
+potato,תַּפּוּחַ אֲדָמָה,ta-pu-ach a-da-ma
+ceiling,תִּקְרָה,tik-ra
+spinach,תֶּרֶד,te-red
+answer,תְּשׁוּבָה,tshu-va
